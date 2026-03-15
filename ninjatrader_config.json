@@ -1,0 +1,41 @@
+{
+  "connection": {
+    "host": "localhost",
+    "port": 8080,
+    "timeout": 30,
+    "max_retries": 5,
+    "retry_delay": 2.0,
+    "base_url": "http://localhost:8080"
+  },
+  "trading": {
+    "instrument": "ES 09-25",
+    "tick_size": 0.25,
+    "tick_value": 12.5,
+    "point_value": 50.0,
+    "stop_loss_points": 5.0,
+    "take_profit_points": 15.0,
+    "confidence_threshold": 0.35,
+    "max_daily_trades": 5,
+    "max_daily_loss": 750.0,
+    "contracts_per_trade": 1,
+    "max_position_size": 1,
+    "commission_per_rt": 2.5,
+    "slippage_ticks": 1,
+    "lookback_bars": 60,
+    "feature_count": 47
+  },
+  "account": {
+    "account_name": "YOUR_ACCOUNT_NAME",
+    "account_type": "SIMULATION",
+    "currency": "USD",
+    "data_provider": "NinjaTrader",
+    "bar_type": "Minute",
+    "bar_period": 1
+  },
+  "log_level": "INFO",
+  "model_path": "models/best/ppo/ppo_best/best_model",
+  "scaler_path": "models/feature_scaler.pkl",
+  "results_directory": "ninjatrader_results",
+  "auto_rollover": true,
+  "rollover_days_ahead": 7
+}

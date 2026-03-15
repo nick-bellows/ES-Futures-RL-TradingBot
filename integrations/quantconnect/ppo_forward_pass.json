@@ -1,0 +1,15 @@
+{
+  "input_preprocessing": {
+    "normalization": "none",
+    "scaling": "none"
+  },
+  "activation_functions": {
+    "hidden_layers": "tanh",
+    "output_layer": "softmax"
+  },
+  "output_interpretation": {
+    "action_0": "HOLD",
+    "action_1": "BUY",
+    "action_2": "SELL"
+  }
+}

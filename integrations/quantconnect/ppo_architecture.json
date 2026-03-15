@@ -1,0 +1,31 @@
+{
+  "observation_space": {
+    "shape": [
+      2830
+    ],
+    "dtype": "float32",
+    "size": 2830
+  },
+  "action_space": {
+    "n": 3,
+    "dtype": "int64"
+  },
+  "network_architecture": {
+    "input_size": 2830,
+    "shared_layers": [],
+    "policy_layers": [
+      64,
+      64
+    ],
+    "value_layers": [
+      64,
+      64
+    ],
+    "output_size": 3
+  },
+  "activation_function": "tanh",
+  "normalization": {
+    "input_normalization": false,
+    "layer_normalization": false
+  }
+}

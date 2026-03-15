@@ -1,0 +1,9 @@
+# PyTorch with CUDA support for RTX 4080
+--find-links https://download.pytorch.org/whl/cu118/torch_stable.html
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+
+# Or try newer version with CUDA 12.1
+# --find-links https://download.pytorch.org/whl/cu121/torch_stable.html  
+# torch==2.1.2+cu121
+# torchvision==0.16.2+cu121

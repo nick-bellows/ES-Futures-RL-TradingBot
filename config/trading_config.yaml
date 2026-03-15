@@ -1,0 +1,21 @@
+﻿trading:
+  symbol: "ES"
+  contract_multiplier: 50
+  tick_size: 0.25
+  
+  hours:
+    start: "09:30"
+    end: "16:00"
+    timezone: "America/New_York"
+  
+  risk_management:
+    max_daily_loss: 750
+    max_trades_per_day: 5
+    position_size: 1
+    trailing_stop_points: 5
+    profit_target_points: 15
+    risk_reward_ratio: 3.0
+  
+  execution:
+    slippage_ticks: 1
+    commission_per_side: 2.25

@@ -1,0 +1,19 @@
+﻿data:
+  sources:
+    primary: "quantconnect"
+    secondary: "databento"
+    
+  databento:
+    data_path: "D:\QC_TradingBot_v3\data\databento"
+    schema: "trades"
+    stype: "continuous"
+    
+  quantconnect:
+    resolution: "Minute"
+    data_normalization: "Raw"
+    fill_forward: true
+    
+  preprocessing:
+    handle_missing: "forward_fill"
+    outlier_detection: true
+    normalize_features: true

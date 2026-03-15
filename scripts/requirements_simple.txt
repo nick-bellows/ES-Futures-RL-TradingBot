@@ -1,0 +1,33 @@
+# Core packages
+pandas
+numpy
+yfinance
+python-dotenv
+pyyaml
+
+# Machine Learning
+torch --index-url https://download.pytorch.org/whl/cu121
+stable-baselines3
+gymnasium
+tensorboard
+
+# Technical Analysis
+pandas-ta
+
+# Data
+joblib
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Development
+pytest
+black
+flake8
+
+# Logging
+loguru

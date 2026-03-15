@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/databento/*
+data/quantconnect/*
+data/processed/*
+data/bridge/*
+data/continuous/*
+data/raw/*
+*.csv
+*.parquet
+*.h5
+
+# Models (large binary files)
+models/checkpoints/*
+models/production/*
+models/best/*
+models/trained/*
+*.pkl
+*.pth
+*.zip
+
+# Logs
+logs/
+*.log
+
+# Environment & Secrets
+.env
+.env.local
+.env.*
+!.env.template
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# QuantConnect
+lean.json
+config.json
+
+# DataBento
+*.db
+*.dbn
+*.dbn.zst
+
+# NinjaTrader bridge runtime files
+data/bridge/market_data.csv
+data/bridge/signals.txt
+data/bridge/status.txt
+data/bridge/execution_log.txt
+
+# Results
+replay_results/
+ninjatrader_results/
+
+# Misc
+current_es_price.txt
+installed_packages.txt
+.claude/

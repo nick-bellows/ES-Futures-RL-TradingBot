@@ -1,0 +1,21 @@
+﻿model:
+  algorithm: "PPO"
+  
+  hyperparameters:
+    learning_rate: 0.0003
+    batch_size: 64
+    gamma: 0.99
+    n_steps: 2048
+    n_epochs: 10
+    clip_range: 0.2
+    ent_coef: 0.01
+    
+  training:
+    total_timesteps: 1000000
+    eval_freq: 10000
+    save_freq: 50000
+    
+  environment:
+    observation_space: 47
+    action_space: 3
+    reward_function: "sharpe_based"

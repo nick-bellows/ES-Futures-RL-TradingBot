@@ -1,0 +1,30 @@
+{
+  "model_path": "models/best/ppo/ppo_best/best_model",
+  "output_dir": "replay_results",
+  "test_modes": [
+    "standard",
+    "stress",
+    "sensitivity"
+  ],
+  "confidence_threshold": 0.35,
+  "max_daily_trades": 5,
+  "daily_loss_limit": 750,
+  "stop_loss_points": 5,
+  "profit_target_points": 15,
+  "point_value": 50,
+  "slippage_ticks": 1,
+  "commission_per_side": 1.25,
+  "confidence_thresholds": [
+    0.25,
+    0.30,
+    0.35,
+    0.40,
+    0.45,
+    0.50
+  ],
+  "replay_settings": {
+    "speed": 10,
+    "contract_id": 0,
+    "timeout_minutes": 30
+  }
+}
